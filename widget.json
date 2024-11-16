@@ -1,0 +1,22 @@
+{
+    "name": "EditableTable",
+    "id": "com.custom.editabletable",
+    "version": "1.0.0",
+    "newInstancePrefix": "EditableTable_",
+    "description": "Custom widget for an editable table in SAP Analytics Cloud.",
+    "properties": {
+        "tableData": {
+            "type": "string"
+        }
+    },
+    "methods": {},
+    "events": {},
+    "webcomponents": [
+        {
+            "kind": "main",
+            "url": "https://raw.githubusercontent.com/Abdwarwar/table_widget/refs/heads/main/editableTable.js",
+            "tag": "com-custom-editabletable",
+            "integrity": "sha256-2ec948ccca7ea0f82b1feec526f945fb673a9f2aea333d09f6af8edac31a714c"
+        }
+    ]
+}
